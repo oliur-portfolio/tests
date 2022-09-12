@@ -1,0 +1,606 @@
+.pay__fine {
+  padding-bottom: 50px;
+  background: #f9f9f9;
+  padding-top: 50px;
+}
+
+.pay__fine > .container {
+  background: #fff;
+  padding: 50px 80px;
+  box-shadow: 2px 3px 8px -2px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 2px 3px 8px -2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 2px 3px 8px -2px rgba(0, 0, 0, 0.15);
+}
+
+.pay__fine p {
+  margin-bottom: 0;
+  flex: none;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.pay__fine-heading {
+  text-align: center;
+}
+
+.pay__fine-heading h1 {
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.pay__fine-heading p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.pay__fine-heading p em {
+  font-weight: 700;
+}
+
+.application__form {
+  padding: 30px 0;
+  padding-bottom: 0;
+}
+
+.input__form-items {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 50px;
+}
+
+.input__form-item {
+  display: flex;
+  align-items: center;
+}
+
+.input__form-item p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.single__input-wrapper {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.single__input {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+
+.bottom__label {
+  position: relative;
+}
+
+.single__input label {
+  margin: 0;
+  flex: none;
+  margin-right: 10px;
+}
+
+.bottom__label label {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  width: max-content;
+}
+
+.single__input input,
+.single__input select {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px dashed #000;
+  padding: 0 10px;
+}
+
+.single__input select:focus-visible {
+  outline: 0;
+}
+
+.heading__para {
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.application__checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.application__checkbox p {
+  flex: none;
+  margin: 0;
+}
+
+.application__checkbox .single__input-wrapper {
+  gap: 20px;
+}
+
+.application__checkbox .single__input {
+  width: auto;
+}
+
+.application__checkbox .single__input input {
+  width: 15px;
+  height: 15px;
+}
+
+.notes__text-area {
+  background-image: -webkit-linear-gradient(
+    white,
+    white 30px,
+    #ccc 30px,
+    #ccc 31px,
+    white 31px
+  );
+  background-image: -moz-linear-gradient(
+    white,
+    white 30px,
+    #ccc 30px,
+    #ccc 31px,
+    white 31px
+  );
+  background-image: -ms-linear-gradient(
+    white,
+    white 30px,
+    #ccc 30px,
+    #ccc 31px,
+    white 31px
+  );
+  background-image: -o-linear-gradient(
+    white,
+    white 30px,
+    #ccc 30px,
+    #ccc 31px,
+    white 31px
+  );
+  background-image: linear-gradient(
+    white,
+    white 30px,
+    #ccc 30px,
+    #ccc 31px,
+    white 31px
+  );
+  background-size: 100% 31px;
+  border-radius: 8px;
+  line-height: 31px;
+  padding: 8px;
+  border: 0;
+  width: 100%;
+}
+
+.checkbox__wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.point__4 {
+  display: flex;
+  align-items: baseline;
+}
+
+.check__inputs {
+  display: flex;
+  align-items: baseline;
+}
+
+.point__6 .single__input {
+  width: 300px;
+}
+
+.point__6 .application__checkbox .single__input {
+  width: auto;
+}
+
+.name__signature {
+  margin-top: 120px;
+}
+
+.heading__para {
+  margin-bottom: 15px !important;
+}
+
+.application__points,
+.point__input-lists {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.point__input-lists {
+  margin-top: 20px;
+}
+
+.application__checkbox p {
+  margin-right: 20px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+.note {
+  font-size: 14px !important;
+  line-height: 18px !important;
+  font-weight: 400 !important;
+  margin-top: 10px !important;
+}
+
+.point__4 p {
+  margin-right: 10px;
+}
+
+.name__signature .single__input-wrapper {
+  gap: 100px;
+}
+
+.point__3 .application__checkbox {
+  margin-top: 10px;
+}
+
+.point__5 {
+  margin-top: 30px;
+}
+
+.point__6 .application__checkbox p {
+  margin-right: 8px;
+}
+
+.application__upload-file {
+  margin-top: 15px;
+  align-items: center;
+  display: none;
+}
+
+.show.application__upload-file {
+  display: flex;
+}
+
+.application__upload-file input {
+  border: 0;
+  width: fit-content;
+}
+
+.application__btns {
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.application__btns button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #050000;
+  width: 180px;
+  background: #46a100;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+}
+
+.application__btns button:hover {
+  opacity: 0.8;
+}
+
+.save__btn {
+  margin-left: 20px;
+}
+
+.point__6 {
+  display: none;
+}
+
+.show-6.point__6 {
+  display: block;
+}
+
+@media (max-width: 1590.98px) {
+  .pay__fine {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 1450.98px) {
+  .pay__fine {
+    padding: 50px 30px;
+  }
+
+  .pay__fine > .container {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .single__input-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .single__input {
+    max-width: 400px;
+  }
+
+  .point__3 .single__input {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .check__inputs {
+    flex-direction: column;
+  }
+
+  .check__inputs > div,
+  .check__inputs > p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .single__input {
+    max-width: 100%;
+  }
+
+  .input__form-items {
+    gap: 50px;
+  }
+
+  .single__input-wrapper {
+    gap: 50px;
+  }
+
+  .name__signature .single__input-wrapper {
+    gap: 60px;
+    flex-wrap: nowrap;
+  }
+
+  .name__signature {
+    margin-top: 60px;
+  }
+
+  .point__input-lists .single__input-wrapper:first-of-type {
+    gap: 20px;
+  }
+
+  .point__4 {
+    flex-wrap: wrap;
+  }
+
+  .point__4 p {
+    margin-bottom: 10px;
+  }
+
+  .point__5 .checkbox__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .point__5 p {
+    margin-bottom: 10px;
+  }
+
+  .single__input {
+    align-items: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .pay__fine-heading {
+    padding: 0;
+  }
+
+  .pay__fine-heading h1 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+
+  .input__form-item {
+    align-items: flex-start;
+  }
+
+  .checkbox__wrapper {
+    flex-direction: column;
+  }
+
+  .checkbox__wrapper .single__input-wrapper {
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .point__4 {
+    flex-direction: column;
+  }
+
+  .point__3 .single__input label {
+    max-width: 280px;
+  }
+
+  .bottom__label label {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pay__fine {
+    padding: 20px;
+  }
+
+  .pay__fine > .container {
+    padding: 30px 20px;
+  }
+
+  .pay__fine p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .pay__fine-heading p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .input__form-items .input__form-item:nth-child(2) .single__input-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+
+  .input__form-items .input__form-item:nth-child(3) .single__input-wrapper {
+    gap: 30px;
+  }
+
+  .input__form-items {
+    gap: 30px;
+  }
+
+  .input__form-items
+    .input__form-item:nth-child(2)
+    .single__input-wrapper
+    .single__input:first-child {
+    grid-column: 1 / span 2;
+  }
+
+  .input__form-items
+    .input__form-item:nth-child(2)
+    .single__input-wrapper
+    .single__input:last-child {
+    grid-column: 1 / span 2;
+  }
+
+  .bottom__label label {
+    bottom: -25px;
+  }
+
+  .application__form {
+    padding-top: 10px;
+  }
+
+  .heading__para {
+    margin-top: 40px;
+    margin-bottom: 10px !important;
+  }
+
+  .point__input-lists {
+    margin-top: 10px;
+  }
+
+  .point__input-lists .single__input-wrapper {
+    gap: 20px;
+  }
+
+  .show.application__upload-file {
+    flex-wrap: wrap;
+  }
+
+  .application__upload-file input {
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .checkbox__wrapper .single__input-wrapper {
+    margin-top: 25px;
+  }
+
+  .point__2 .single__input-wrapper .single__input {
+    margin-top: -15px;
+  }
+
+  .note {
+    font-size: 12px !important;
+    line-height: 18px !important;
+    font-weight: 400 !important;
+    margin-top: 5px !important;
+    margin-right: 0 !important;
+  }
+
+  .application__points,
+  .point__input-lists {
+    gap: 10px;
+  }
+
+  .point__input-lists .single__input-wrapper:first-of-type,
+  .point__input-lists .single__input-wrapper {
+    gap: 10px;
+  }
+
+  .point__5 .single__input-wrapper {
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .name__signature {
+    margin-top: 80px;
+  }
+
+  .application__btns {
+    margin-top: 100px;
+  }
+
+  .point__6 .single__input {
+    margin-bottom: 10px;
+  }
+
+  .check__inputs > div,
+  .check__inputs > p {
+    margin-bottom: 10px;
+  }
+
+  .point__6 .application__checkbox {
+    margin-bottom: 0;
+  }
+
+  .name__signature .single__input-wrapper {
+    gap: 20px;
+  }
+
+  .name__signature .single__input-wrapper .single__input:last-of-type label {
+    bottom: -50px;
+  }
+
+  .point__6 .single__input {
+    max-width: 120px;
+  }
+
+  .point__6 .single__input:last-of-type {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .point__6 .check__inputs {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .point__6 .check__inputs .single__input-wrapper {
+    width: 190px;
+  }
+
+  .point__6 .check__inputs > p {
+    max-width: 320px;
+  }
+}
